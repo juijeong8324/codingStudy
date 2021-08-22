@@ -10,7 +10,7 @@ def solution(n):
         n = n//3
 
     k = 1;
-    for i in reversed(range(len(list))): # 이때 list 0번째 부터(높은 자릿수) 나오니까 거꾸로 reversed 해줘야 함..
+    for i in reversed(range(len(list))): # 이때 list 0번째 부터(낮은 자릿수) 나오니까 거꾸로 reversed 해줘야 함..
         answer += list[i] * k
         k *= 3
 
