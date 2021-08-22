@@ -55,7 +55,7 @@ int solution(int n) {
     }
     int k = 1;
     while(!v.empty()) {
-        answer += k*v.back(); // 한 자리씩(그래서 v.back) 부터 해당 원소값 * 자리수를 더해준다 
+        answer += k*v.back(); // 첫 번째 자리수씩(그래서 v.back) 부터 해당 원소값 * 자리수를 더해준다 
         v.pop_back(); // 맨 뒤에 있는 원소를 아예 삭제(메모리 삭제인듯)
         k*=3; // 자리수 증가에 따라 3 곱해주기
     }
