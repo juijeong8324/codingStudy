@@ -17,7 +17,7 @@ int solution(int n) {
     
     long temp = stol(s_answer); // 문자열을 long 타입으로 받기 
     for(int i = 0; i < size; i++){
-        long long num = temp % 10; // 나머지 숫자로
+        long long num = temp % 10; // 나머지는 자릿수가 낮은 애들부터 나온다
         temp = temp / 10;
         
         answer += num*pow(3,i); // 10진수에 바꿔서 더해주기
