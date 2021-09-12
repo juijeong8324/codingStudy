@@ -31,13 +31,13 @@ int main(void) {
 
 }
 
-int find(vector<int> vect, int m, int tn) {
+int find(vector<int> vect, int m, int tn) { // 제켄도르프 정리로 피보나치킨 찾기  
     int t = vect[tn - 1]; // vect[tn]은 num보다 이미 크다
     vector<int> index; // index를 담을 애덜 
     int t_index = tn - 3; // tn-2면 tn-1과 연속하기 때문
     int answer = 0;
 
-    index.push_back(tn - 1);
+    index.push_back(tn - 1); 
     m -= t;
 
     while (m > 0) {
