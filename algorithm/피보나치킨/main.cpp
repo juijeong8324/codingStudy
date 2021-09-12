@@ -10,7 +10,7 @@ int main(void) {
     int temp; // 피보나치 다음 수 
     cin >> num;
 
-    fibo.push_back(0);
+    fibo.push_back(1);
     fibo.push_back(1);
     temp = fibo[0] + fibo[1]; // F2
     fibo.push_back(temp); // fibo에 저장
