@@ -14,5 +14,7 @@
 필요한 치킨의 마리 수    
 
 ## Sample
-Input - 17     
-Output - 11
+### Input 
+17     
+### Output 
+11
