@@ -1,6 +1,8 @@
 // Link : https://www.acmicpc.net/problem/1920
 // 퀵 정렬과 이분 탐색 사용한 매우 원초적인 알고리즘이다. 
-// 최대한 printf와 scanf 쓰자.. 안 하면 메모리 초과 뜬다!!!! 아니 왜이리 허무한 것이여 %참고: cout,cin,endl은 시간이 오래걸린다%
+// 최대한 printf와 scanf,\n 쓰자.. 안 하면 시간초과 뜬다!!!! 아니 왜이리 허무한 것이여 %참고: cout,cin,endl은 시간이 오래걸린다%
+// sort 함수에서 등호 주의 메모리초과 뜸. 
+// scanf, printf를 안 쓰고 싶으면 아래 main함수 첫 두 줄 참고 
 
 #include <iostream>
 
@@ -9,6 +11,9 @@ void swap(int& a, int& b);
 bool find(int* arr, int answer, int start, int end);
 
 int main(void) {
+    //ios_base::sync_with_stdio(false); 
+    //cin.tie(null);
+
     int n, m;
     scanf("%d", &n);
 
@@ -46,7 +51,7 @@ void sort(int* arr, int left, int right) {
         while (i <= right && arr[i] <= arr[p]) {
             i++;
         }
-        while (j > left && arr[j] > arr[p]) {
+        while (j > left && arr[j] > arr[p]) { // 등호를 넣어주니 메모리초과가 뜬다!! 
             j--;
         }
 
