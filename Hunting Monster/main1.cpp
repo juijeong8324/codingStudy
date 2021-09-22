@@ -84,7 +84,8 @@ void sort(int left, int right, struct Attack* data) {
             swap(data[j].hp, data[i].hp);
         }
 
-        sort(left, j-1, data); // 왼쪽 다시 정렬
-        sort(j + 1, right, data); //오른쪽 정렬
+        
     }
+    sort(left, j-1, data); // 왼쪽 다시 정렬
+    sort(j + 1, right, data); //오른쪽 정렬
 }
