@@ -2,8 +2,7 @@
 // 퀵 정렬과 이분 탐색 사용한 매우 원초적인 알고리즘이다. 
 // 최대한 printf와 scanf 쓰자.. 안 하면 메모리 초과 뜬다!!!! 아니 왜이리 허무한 것이여 %참고: cout,cin,endl은 시간이 오래걸린다%
 
-
-#include <stdio.h>
+#include <iostream>
 
 void sort(int* arr, int left, int right);
 void swap(int& a, int& b);
