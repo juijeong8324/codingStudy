@@ -23,7 +23,7 @@ int main() {
 			mean += temp;
 		}
 
-		mean = mean / n; // Æò±Õ
+		mean = mean / n; // í‰ê· 
 
 		for (int j = 0; j < n; j++) {
 			if (score[j] >= mean) {
