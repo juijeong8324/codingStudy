@@ -27,19 +27,19 @@
   <tr>
     <td rowspan="4">2주차</td>
     <td>1. 합격자 찾기</td>
-    <td> [코드](https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-1.cpp) </td>
+    <td> <a href="https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-1.cpp">코드</a> </td>
   </tr>
   <tr>
     <td>2. 철자 분리 집합</td>
-    <td> [코드](https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-2.cpp) </td>
+    <td> <a href="https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-2.cpp">코드</a> </td>
   </tr>
   <tr>
     <td>3. 출석부</td>
-    <td> [코드](https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-3.cpp) </td>
+    <td> <a href="https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-3.cpp">코드</a> </td>
   </tr>
   <tr>
     <td>4. 폭탄 구현하기</td>
-    <td> [코드](https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-4.cpp) </td>
+    <td> <a href="https://github.com/juijeong8324/codingStudy/blob/groom/MondayChallenge/2nd/2-4.cpp">코드</a> </td>
   </tr>
 </table>
 
