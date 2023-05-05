@@ -4,8 +4,9 @@
 | :-----: | :-----: | :-----: |         
 | <a href="https://github.com/juijeong8324/codingStudy/tree/programmers/Lv.0/%ED%95%A8%EC%88%98(%EB%A9%94%EC%84%9C%EB%93%9C)/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A1%9C%20%EB%B3%80%ED%99%98">문자열로 변환</a> | < string > header의 ```to_string(int)``` 함수 이용 |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181845)|
 | <a href="">정수 부분</a> |1️⃣ 묵시적 형변환 : 선언시 int로 <br> 2️⃣ 명시적 형변환 : (int)변수이름 |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850)|
-| <a href="">문자열을 정수로 변환하기</a> |1️⃣ < string > header의 ```stoi(string)``` 함수 이용 <br> 2️⃣ '0'의 ASCII code가 48임을 이용 or 해당 숫자에 '0'을 빼면 해당 숫자값이 나옴을 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181848)|
-| <a href="">배열의 길이에 따라 다른 연산하기</a> |```arr.size()```와 for문 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|
+| <a href="">문자열을 정수로 변환하기</a> |1️⃣ < string > header의 ```stoi(string)``` 함수 이용 <br> 2️⃣ '0'의 ASCII code가 48임을 이용(48을 빼면 됨) or 해당 숫자에 '0'을 빼면 해당 숫자값이 나옴을 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181848)|
+| <a href="">배열의 길이에 따라 다른 연산하기</a> |```arr.size()```와 ```for문``` 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|
+| <a href="">문자열 정수의 합</a> |```for문```을 이용해서 각 문자열을 접근하고 '0'을 빼면 됨|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181849)|
 | <a href="">뒤에서 5등까지</a> ||[링크]()|
 
 <br>
@@ -18,7 +19,7 @@
 
 |문제 이름| ✏️KeyPoint✏️ | 원본링크 |        
 | :-----: | :-----: | :-----: |     
-| <a href="">대문자로 바꾸기</a> | 1️⃣ ```**toupper(char)**``` 함수 이용 (소문자로 변환 시 ```**tolower(char)**``` 함수 이용) <br> 2️⃣ **ASCII 값**이 A-Z는 65-90 a-z는 97-122임을 이용 <br> 3️⃣ 현재 문자와 'a'와의 차를 계산한 후 'A'를 더하기 (```**char-'a'+'A'**```)|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877)|
+| <a href="">대문자로 바꾸기</a> | 1️⃣ ```toupper(char)``` 함수 이용 (소문자로 변환 시 ```tolower(char)``` 함수 이용) <br> 2️⃣ ASCII 값이 A-Z는 65-90 a-z는 97-122임을 이용(97-65=`32를 더하거나 빼면 됨`) <br> 3️⃣ 현재 문자와 'a'와의 차를 계산한 후 'A'를 더하기 (```char-'a'+'A'```)|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181877)|
 
 <br>
 
