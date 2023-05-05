@@ -10,6 +10,8 @@
 | <a href="">뒤에서 5등까지</a> |1️⃣ < algorithm > header의 `sort()` 함수를 이용해서 정렬하고 for문으로 5번째 배열 얻기 <br> 2️⃣ 정렬 후 ```insert()```함수 이용 <br> 3️⃣ 정렬 후 ```vector 초기화```|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853)|
 | <a href="">뒤에서 5등 위로</a> |뒤에서 5등까지 문제와 동일|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181852)|
 | <a href="">배열의 길이를 2의 거듭제곱으로 만들기</a> |1️⃣ 2의 거듭제곱이 담긴 array를 만들어주고 arr.size()와 해당 거듭제곱 값을 비교  ```insert()```로 추가 <br> 2️⃣ < cmath > header의 `pow` 함수와 `ceil` 함수 이용 <br> 3️⃣ while 문으로 arr.size()보다 큰 2의 거듭제곱 만큼 곱해준 후 추가|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181857)|
+| <a href="">0 떼기</a> |1️⃣ 해당 문자열을 `stoi(string)`를 이용해서 int로 바꿔 0을 떼고 `to_string(int)`로 문자열로 만들어주기 <br> 2️⃣ 0을 다른 숫자가 올때까지 count하고 `substr(int)`로 문자열 자르기 |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181847)|
+| <a href="">배열 비교하기</a> |1️⃣ < numeric > header의 `accumulate()` 이용해서 배열의 합 구하고 단순 대소 비교 <br> 2️⃣ 대소 비교시 삼항 연산자 이용하면 더 simple한 코드 완|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181856)|
 
 <br>
 
