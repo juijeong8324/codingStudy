@@ -8,6 +8,8 @@
 | <a href="">배열의 길이에 따라 다른 연산하기</a> |```arr.size()```와 ```for문``` 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|
 | <a href="">문자열 정수의 합</a> |```for문```을 이용해서 각 문자열을 접근하고 '0'을 빼어 실제 숫자값을 구하여 더하기|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181849)|
 | <a href="">뒤에서 5등까지</a> |1️⃣ < algorithm > header의 `sort()` 함수를 이용해서 정렬하고 for문으로 5번째 배열 얻기 <br> 2️⃣ 정렬 후 ```insert()```함수 이용 <br> 3️⃣ 정렬 후 ```vector 초기화```|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181853)|
+| <a href="">뒤에서 5등 위로</a> |뒤에서 5등까지 문제와 동일|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181852)|
+| <a href="">배열의 길이를 2의 거듭제곱으로 만들</a> |뒤에서 5등까지 문제와 동일|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181857)|
 
 <br>
 
