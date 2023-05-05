@@ -11,9 +11,7 @@ int solution(vector<string> strArr) {
             if(a.size() == i) count[i] += 1;
         }
         
-        if(answer < count[i]){ // max 체크
-            answer = count[i];
-        }
+        answer = max(answer, count[i]); // max 체크
     }
     
     return answer;
