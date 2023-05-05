@@ -1,7 +1,7 @@
 ## [sort()](https://modoocode.com/272) 이용
 - **< algorithm >** 에 정의 
 - first 부터 last 전까지의 원소들을 오름차순 정렬 
-- 이때 first와 last는 **임의 접근 반복자(RandomIterator)**
+- 이때 first와 last는 **임의 접근 반복자(RandomIterator)** (iterator는 말 그대로 포인터라고 생각하면 됨!) 
 - list는 sort 함수 사용 할 수 없음.(순차 접근 반복자이기 때문)
 
 ```c++
@@ -64,7 +64,7 @@ int main() {
 
 ---
 
-## vetor의 insert와 초기화
+## vetor의 insert
 - [insert()](https://modoocode.com/186)
 ```c++
 iterator insert(iterator position, const T& x); // 해당 position에 x를 추가
@@ -72,4 +72,61 @@ void insert(iterator position, size_type n, const T& x); // 해당 position에 n
 
 template <class InputIterator>
 void insert(iterator position, InputIterator first, InputIterator last); // 해당 position에 first부터 last 전까지의 원소들을 추가!
+```
+
+### 예시
+```c++
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+  vector<int> myvector(3, 100);
+  vector<int>::iterator it;
+
+  it = myvector.begin();
+  it = myvector.insert(it, 200); // 첫 번째 위치에 200 값 추가 후 첫 번째 iterator 반환
+
+  myvector.insert(it, 2, 300); // 첫 번째 위치에 2개의 300 값 추가 
+
+  int myarray[] = {501, 502, 503};
+  myvector.insert(myvector.begin(), myarray, myarray + 3); // myvector의 첫 번째 위치에 myarray 0번째 부터 2번째까지 원소들을 추가 
+
+  cout << "myvector contains:";
+  for (it = myvector.begin(); it < myvector.end(); it++) cout << " " << *it;
+  cout << endl;
+
+  return 0;
+}
+```
+
+```
+myvector contains: 501 502 503 300 300 200 100 100 100
+```
+
+<br>
+
+---
+
+## vector 생성자 
+```c++
+template <class InputIterator>
+vector(InputIterator first, InputIterator last, const Allocator& = Allocator());
+```
+first 부터 last 번째 원소까지 반복자가 순회하며 각각의 원소들을 생성되는 vector container 원소로 복사
+
+### 예제
+```c++
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+  int myints[] = {16, 2, 77, 29};
+  vector<int> fifth(myints, myints + 3); 
+  // 배열은 이름 자체가 주소값이니까 myints.begin()이 생략되어도 괜춘! 
+  // myints의 첫 번째 원소와 3번째 원소까지 복사해서 vector container 생성
+
+  return 0;
+}
 ```
