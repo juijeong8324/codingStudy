@@ -3,18 +3,15 @@
 using namespace std;
 
 int solution(vector<string> strArr) {
-    array <int, 31> count;
-    for(int i=0; i < 31; i++){
-        count[i] = 0;
-    } // strArr 원소의 길이가 30이하이므로 
+    array <int, 31> count{0, }; // 0으로 초기화 
     int answer = 0;
     
-    for(int i=1; i <= 30; i++){ // 각 원소의 길이마다
-        for(auto a : strArr){  // strArr에 해당 길이가 몇 개 있는지 count
+    for(int i=1; i <= 30; i++){ // 각 문자열의 길이 순환
+        for(auto a : strArr){ // strArr에 해당하는 문자열의 길이의 원소가 있는지 체크
             if(a.size() == i) count[i] += 1;
         }
         
-        if(answer < count[i]){ // count 후 대소 비교 
+        if(answer < count[i]){ // max 체크
             answer = count[i];
         }
     }
