@@ -1,4 +1,5 @@
-## 첫 번째 시도 
+## 첫 번째 방법
+### 1차 시도 
 ```c++
 #include <string>
 #include <vector>
@@ -54,3 +55,61 @@ vector<int> solution(vector<int> arr) {
 }
 ```
 통과했지롱~~ 
+
+<br>
+<br>
+
+---
+
+<br>
+
+## 두 번째 방법 : < cmath > header pow(2, ceil(log2(arr.size())))이용
+### [ceil(double x)](https://cplusplus.com/reference/cmath/ceil/)
+- The smallest integral value that is not less than x (as a floating-point value).
+- 즉 x보다 작지 않은 가장 작은 정수 값을 반환한다. 
+
+### 예시
+```c++
+/* ceil example */
+#include <stdio.h>      /* printf */
+#include <math.h>       /* ceil */
+
+int main ()
+{
+  printf ( "ceil of 2.3 is %.1f\n", ceil(2.3) );
+  printf ( "ceil of 3.8 is %.1f\n", ceil(3.8) );
+  printf ( "ceil of -2.3 is %.1f\n", ceil(-2.3) );
+  printf ( "ceil of -3.8 is %.1f\n", ceil(-3.8) );
+  return 0;
+}
+```
+```
+ceil of 2.3 is 3.0
+ceil of 3.8 is 4.0
+ceil of -2.3 is -2.0
+ceil of -3.8 is -3.0
+```
+
+<br>
+
+### [pow(double base, double exponent)](https://cplusplus.com/reference/cmath/pow/)
+- base를 exponent 승만큼 제곱한 값을 리턴한다.
+```c++
+/* pow example */
+#include <stdio.h>      /* printf */
+#include <math.h>       /* pow */
+
+int main ()
+{
+  printf ("7 ^ 3 = %f\n", pow (7.0, 3.0) );
+  printf ("4.73 ^ 12 = %f\n", pow (4.73, 12.0) );
+  printf ("32.01 ^ 1.54 = %f\n", pow (32.01, 1.54) );
+  return 0;
+}
+```
+```
+7 ^ 3 = 343.000000
+4.73 ^ 12 = 125410439.217423
+32.01 ^ 1.54 = 208.036691
+```
+
