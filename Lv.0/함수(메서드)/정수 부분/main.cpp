@@ -5,7 +5,7 @@ using namespace std;
 
 int solution(double flo) {
     int answer = 0;
-    answer = (int)flo;
+    answer = (int)flo; // 명시적 형변환
     return answer;
 }
 
@@ -16,6 +16,6 @@ int solution(double flo) {
 using namespace std;
 
 int solution(double flo) {
-    int answer = flo; 
+    int answer = flo; // 묵시적 형변환
     return answer;
 }
