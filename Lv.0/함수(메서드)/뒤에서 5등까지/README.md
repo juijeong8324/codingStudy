@@ -112,7 +112,7 @@ myvector contains: 501 502 503 300 300 200 100 100 100
 template <class InputIterator>
 vector(InputIterator first, InputIterator last, const Allocator& = Allocator());
 ```
-first 부터 last 번째 원소까지 반복자가 순회하며 각각의 원소들을 생성되는 vector container 원소로 복사
+first 부터 last 번째 원소 전까지 반복자가 순회하며 각각의 원소들을 생성되는 vector container 원소로 복사
 
 ### 예제
 ```c++
@@ -124,7 +124,7 @@ int main() {
   int myints[] = {16, 2, 77, 29};
   vector<int> fifth(myints, myints + 3); 
   // 배열은 이름 자체가 주소값이니까 myints.begin()이 생략되어도 괜춘! 
-  // myints의 첫 번째 원소와 3번째 원소까지 복사해서 vector container 생성
+  // myints의 첫 번째 원소와 2번째 원소까지 복사해서 vector container 생성
 
   return 0;
 }
