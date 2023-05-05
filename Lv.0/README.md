@@ -5,7 +5,7 @@
 | <a href="https://github.com/juijeong8324/codingStudy/tree/programmers/Lv.0/%ED%95%A8%EC%88%98(%EB%A9%94%EC%84%9C%EB%93%9C)/%EB%AC%B8%EC%9E%90%EC%97%B4%EB%A1%9C%20%EB%B3%80%ED%99%98">문자열로 변환</a> | < string > header의 ```to_string(int)``` 함수 이용 |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181845)|
 | <a href="">정수 부분</a> |1️⃣ 묵시적 형변환 : 선언시 int로 <br> 2️⃣ 명시적 형변환 : (int)변수이름 |[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181850)|
 | <a href="">문자열을 정수로 변환하기</a> |1️⃣ < string > header의 ```stoi(string)``` 함수 이용 <br> 2️⃣ '0'의 ASCII code가 48임을 이용 or 해당 숫자에 '0'을 빼면 해당 숫자값이 나옴을 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181848)|
-| <a href="">배열의 길이에 따라 다른 연산하기</a> ||[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|
+| <a href="">배열의 길이에 따라 다른 연산하기</a> |```arr.size()```와 for문 이용|[링크](https://school.programmers.co.kr/learn/courses/30/lessons/181854)|
 | <a href="">뒤에서 5등까지</a> ||[링크]()|
 
 <br>
