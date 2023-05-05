@@ -6,7 +6,7 @@ using namespace std;
 
 vector<int> solution(vector<int> arr) {
     int n = arr.size();
-    int dst = pow(2, ceil(log2(n))); // 예를 들어 n=6이면 (2 < 루트 6 < 3) 이므로! 
+    int dst = pow(2, ceil(log2(n))); // 예를 들어 n=6이면 (2 < 루트 6 < 3) 이므로 ceil(6)=3
 
     for(int t = 0; t < dst - n; ++t)
     {
