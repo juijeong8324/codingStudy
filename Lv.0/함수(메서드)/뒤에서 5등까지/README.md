@@ -64,8 +64,7 @@ int main() {
 
 ---
 
-## vetor의 insert
-- [insert()](https://modoocode.com/186)
+## vetor의 [insert](https://modoocode.com/186)
 ```c++
 iterator insert(iterator position, const T& x); // 해당 position에 x를 추가
 void insert(iterator position, size_type n, const T& x); // 해당 position에 n개의 같은 값 x들을 추가
@@ -108,7 +107,7 @@ myvector contains: 501 502 503 300 300 200 100 100 100
 
 ---
 
-## vector 생성자 
+## [vector 생성자](https://modoocode.com/178) 
 ```c++
 template <class InputIterator>
 vector(InputIterator first, InputIterator last, const Allocator& = Allocator());
